@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `contents` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `author` varchar(40) NOT NULL,
+  `isi` text NOT NULL,
+  `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY(`id`)
+)ENGINE = InnoDB DEFAULT CHARSET = utf8 AUTO_INCREMENT = 22;
