@@ -11,4 +11,4 @@ url \
 [GET] /content/read_paging.php?id= \
 [POST] /content/create.php (author, isi, jwt) \
 [POST] /user/registration.php (firstname, lastname, email, password) \
-[POST] /user/login.php (email, password) \
+[POST] /user/login.php (email, password) 
