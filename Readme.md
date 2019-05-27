@@ -5,10 +5,10 @@
 4. Lalu jalankan
 
 
-url
-[GET] /content/read.php
-[GET] /content/read_one.php?id=
-[GET] /content/read_paging.php?id=
-[POST] /content/create.php (author, isi, jwt)
-[POST] /user/registration.php (firstname, lastname, email, password)
-[POST] /user/login.php (email, password)
+url \
+[GET] /content/read.php \
+[GET] /content/read_one.php?id= \
+[GET] /content/read_paging.php?id= \
+[POST] /content/create.php (author, isi, jwt) \
+[POST] /user/registration.php (firstname, lastname, email, password) \
+[POST] /user/login.php (email, password) \
